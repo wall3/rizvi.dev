@@ -1,0 +1,13 @@
+.pattern {
+	background-image: url("../images/bg.png");
+}
+
+.height200 {
+	height: 200px;
+	border-bottom: 5px solid yellow;
+}
+
+.dp-change {
+		position: relative;
+		top: 100px;
+}
