@@ -1,13 +1,64 @@
+html, body {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
 .pattern {
+	background-image: url("../images/bg_header.png");
+}
+
+.pattern2 {
 	background-image: url("../images/bg.png");
 }
 
 .height200 {
 	height: 200px;
+}
+
+.yellow-border-top {
+	border-top: 5px solid yellow;
+}
+
+.yellow-border-bottom {
 	border-bottom: 5px solid yellow;
 }
 
 .dp-change {
 		position: relative;
 		top: 100px;
+		z-index: 999;
+}
+
+.homepage-main-content {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-top: 70px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	border: 5px solid black;
+}
+
+.footer {
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	
 }
