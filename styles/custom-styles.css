@@ -3,6 +3,7 @@ html, body {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.7;
+  background-image: url("../images/bg.png");
 }
 
 h1,
