@@ -1,40 +1,41 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: '',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
+  title: 'Wali Rizvi',
+  subtitle: "Engineering Mechanics '19 @ University of Illinois. I am interested in robotics, automation and controls",
+  copyright: '© Wali Rizvi 2020',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: '',
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: 'Blog',
       path: '/'
     },
     {
-      label: 'About me',
-      path: '/pages/about'
+      label: 'About',
+      path: '/about/'
     },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
+	{
+      label: 'Projects',
+      path: '/projects/'
+    },
+	{
+      label: 'Publications',
+      path: '/publications/'
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Wali Rizvi',
+    photo: '/headshot.jpg',
+    bio: "Engineering Mechanics '19 @ University of Illinois. I am interested in robotics, automation and controls",
     contacts: {
-      email: '#',
-      telegram: '#',
+      email: 'wali@rizvi.dev',
       twitter: '#',
-      github: '#',
-      rss: '#',
-      vkontakte: '#'
+      github: 'wall3',
     }
   }
 };
