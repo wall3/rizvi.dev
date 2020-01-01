@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-8fb51b142ef8e1ff0b86.js"
+    "url": "webpack-runtime-792b240286bd5e67afe0.js"
   },
   {
     "url": "styles.b86f83313d3ed0ac41b6.css"
@@ -42,14 +42,14 @@ self.__precacheManifest = [
     "url": "netlify-identity-widget-5c186a6ecdf4417bfbb5.js"
   },
   {
-    "url": "app-b1b06dc74a316d32b3bd.js"
+    "url": "app-9d962d320c24fb4447ab.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-44b37c3d0621676eebb5.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "dc4d88cfadc07cdf7f980737081a826d"
+    "revision": "ce27a4c380e064ccbe49e1d4b26514d1"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -149,12 +149,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/rizvi.dev`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-b1b06dc74a316d32b3bd.js`))) {
+  if (!resources || !(await caches.match(`/rizvi.dev/app-9d962d320c24fb4447ab.js`))) {
     return await fetch(event.request)
   }
 
@@ -167,7 +167,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/rizvi.dev/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
