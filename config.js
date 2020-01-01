@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: '',
+  url: 'http://rizvi.dev',
   pathPrefix: '/',
   title: 'Wali Rizvi',
   subtitle: "Engineering Mechanics '19 @ University of Illinois. I am interested in robotics, automation and controls",
