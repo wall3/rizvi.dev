@@ -8,7 +8,7 @@ module.exports = {
   copyright: '© Wali Rizvi 2020',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: '',
+  googleAnalyticsId: 'UA-155233126-1',
   useKatex: false,
   menu: [
     {
@@ -34,7 +34,8 @@ module.exports = {
     bio: "Engineering Mechanics '19 @ University of Illinois. I am interested in robotics, automation and controls",
     contacts: {
       email: 'wali@rizvi.dev',
-      twitter: '#',
+	  linkedin: 'walirizvi',
+      twitter: 'walirizvi12',
       github: 'wall3',
     }
   }

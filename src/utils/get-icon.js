@@ -23,6 +23,30 @@ const getIcon = (name: string) => {
     case 'rss':
       icon = ICONS.RSS;
       break;
+    case 'linkedin':
+      icon = ICONS.LINKEDIN;
+      break;
+    case 'instagram':
+      icon = ICONS.INSTAGRAM;
+      break;
+    case 'line':
+      icon = ICONS.LINE;
+      break;
+    case 'facebook':
+      icon = ICONS.FACEBOOK;
+      break;
+    case 'gitlab':
+      icon = ICONS.GITLAB;
+      break;
+    case 'weibo':
+      icon = ICONS.WEIBO;
+      break;
+    case 'codepen':
+      icon = ICONS.CODEPEN;
+      break;
+    case 'youtube':
+      icon = ICONS.YOUTUBE;
+      break;
     default:
       icon = {};
       break;

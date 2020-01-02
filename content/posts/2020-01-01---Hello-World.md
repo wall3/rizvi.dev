@@ -7,7 +7,6 @@ slug: "/posts/hello-world/"
 category: "Happenings"
 tags:
   - ""
-  - ""
 description: "Beginnings of a new website"
 ---
 
