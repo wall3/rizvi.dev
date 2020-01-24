@@ -3,8 +3,8 @@
 <url> <loc>http://rizvi.dev/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://rizvi.dev/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://rizvi.dev/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://rizvi.dev/publications/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://rizvi.dev/projects/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://rizvi.dev/publications/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://rizvi.dev/posts/hello-world/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://rizvi.dev/tag/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://rizvi.dev/category/happenings</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
